@@ -1,12 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import App1 from '../src/pages/App1';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+import $ from 'jquery';
+import Popper from 'popper.js';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
+
 
 
 ReactDOM.render(
-  <>
-    <App />
-  </>,
+  <React.StrictMode>
+    <App1 />
+  </React.StrictMode>,
   document.getElementById('root')
-);
+)
 
