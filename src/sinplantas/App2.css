@@ -1,54 +1,42 @@
-table {
-    border-collapse: collapse;
-}
-
-td {
-    border: 1px solid black;
-}
-
-th {
-    border: 1px solid black;
-}
-.hola{
-    width: 18rem;
-    margin: 50px;
-    padding: 9px;
-    display: inline-block !important;
-}
-.casa{
-    width: 18rem;
-    margin: 50px;
-    padding: 9px;
-    display: inline-block !important;
-    
-}
-.carro{
-    width: 18rem;
-    margin: 50px;
-    padding: 9px;
-    display: inline-block !important;
-}
-.mapa{
-    width: 18rem;
-    margin: 50px;
-    padding: 9px;
-    display: inline-block !important;
-}
-.topa{
-    width: 18rem;
-    margin: 50px;
-    padding: 9px;
-    display: inline-block !important;
-}
-.nino{
-    width: 18rem;
-    margin: 50px;
-    padding: 9px;
-    display: inline-block !important;
-}
-h1{
-    background-color: #13C62B;
+h2{
     text-align: center;
+    background-color: #13C62B;
+}
+.manzana {
+    width: 18rem;
+    margin: 50px;
+    padding: 9px;
+    display: inline-block !important;
+}
+.cara{
+    width: 18rem;
+    margin: 50px;
+    padding: 9px;
+    display: inline-block !important;
+}
+.cabeza{
+    width: 18rem;
+    margin: 50px;
+    padding: 9px;
+    display: inline-block !important;
+}
+.ojos {
+    width: 18rem;
+    margin: 50px;
+    padding: 9px;
+    display: inline-block !important;
+}
+.naris{
+    width: 18rem;
+    margin: 50px;
+    padding: 9px;
+    display: inline-block !important;
+}
+.salsa{
+    width: 18rem;
+    margin: 50px;
+    padding: 9px;
+    display: inline-block !important;
 }
 .dropdown{
     display: inline-block !important;

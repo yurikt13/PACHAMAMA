@@ -3,7 +3,7 @@ import React from 'react';
 const Main = () => {
 
     return ( 
-       <p>jdkdkkncf</p>
+       <h1>PLANTAS CON FLOR</h1>
     )
 
 };
