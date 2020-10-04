@@ -1,19 +1,18 @@
 import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import Main1 from '../components/pantallas/Main1';
+import Main2 from '../components/pantallas/Main2';
 
-function App1() {
+
+function App2() {
   return (
-    <div className='App1'>
+    <div className='App2'>
       <Header />
-      <Main1 />
+      <Main2 />
       <Footer />
     </div>
 
   );
 }
 
-export default App1;
-
-
+export default App2;

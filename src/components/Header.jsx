@@ -4,11 +4,12 @@ const Header = () => {
 
     return (
         <div className="Container">
-            <nav class="navbar navbar-expand-lg navbar-light bg-success">
-                <a class="navbar-brand text-white" href="#">PACHAMAMA</a>
+            <nav className="navbar navbar-expand-lg navbar-light bg-success">
+                <a className="navbar-brand text-white" href="#">PACHAMAMA</a>
             </nav>
-
-            <div className="btn-group">
+        
+        <div className="btn-expand-lg navbar-light bg-success">
+            <div className="btn-group mr-auto mt-0 mt-lg-5">
                 <button type="button" className="btn btn-success">Foro</button>
                 <button type="button" className="btn btn-success dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <span className="sr-only">Toggle Dropdown</span>
@@ -20,7 +21,7 @@ const Header = () => {
             </div>
         
 
-            <div className="btn-group">
+            <div className="btn-group mr-auto mt-0 mt-lg-5">
                 <button type="button" className="btn btn-success">Plantas</button>
                 <button type="button" className="btn btn-success dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <span className="sr-only">Toggle Dropdown</span>
@@ -31,7 +32,7 @@ const Header = () => {
             </div>
 
 
-            <div className="btn-group">
+            <div className="btn-group mr-auto mt-0 mt-lg-5">
                 <button type="button" className="btn btn-success">Recordatorios</button>
                 <button type="button" className="btn btn-success dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <span className="sr-only">Toggle Dropdown</span>
@@ -40,6 +41,7 @@ const Header = () => {
                     <a className="dropdown-item" href="#">Mis plantas</a>
                 </div>
             </div >
+        </div>
         </div>
     )
 };
